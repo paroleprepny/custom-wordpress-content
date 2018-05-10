@@ -1,0 +1,23 @@
+{
+  "name": "custom-wordpress-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bundle-css": "node bundle-css.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paroleprepny/custom-wordpress-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paroleprepny/custom-wordpress-content/issues"
+  },
+  "homepage": "https://github.com/paroleprepny/custom-wordpress-content#readme",
+  "dependencies": {
+    "concat-files": "^0.1.1",
+    "list-files": "^1.1.4"
+  }
+}
