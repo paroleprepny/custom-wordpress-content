@@ -1,0 +1,64 @@
+.footer__container {
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 14px;
+  letter-spacing: normal;
+}
+
+.footer__left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.footer__column {
+  margin-right: 50px;
+  text-align: left;
+}
+
+.footer__subheader {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: inherit;
+}
+
+.footer__nav-link {
+  font-family: inherit;
+}
+
+.footer__address {
+  font-family: inherit;
+  margin: 0;
+}
+
+.footer__fb-icon {
+  max-width: 40px;
+}
+
+.footer__logo {
+  max-width: 300px;
+}
+
+@media (max-width: 950px) {
+  .footer__logo {
+    max-width: 160px;
+  }
+}
+
+@media (max-width: 780px) {
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__left {
+    flex-direction: column;
+  }
+
+  .footer__column {
+    margin-bottom: 30px;
+  }
+}

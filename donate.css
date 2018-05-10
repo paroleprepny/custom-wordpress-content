@@ -1,0 +1,23 @@
+.donate__container {
+  position: relative;
+  display: inline-block;
+}
+
+.donate__btn-row {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.donate__btn {
+  width: 275px;
+}
+
+.donate__btn:first-child {
+  margin-right: 10px;
+}
+
+.donate__btn-stretch {
+  width: 100%;
+}
+
+/* mobile only: at the point where things get fucked specifically for your donate btns */

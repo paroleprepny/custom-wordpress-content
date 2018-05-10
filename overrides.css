@@ -1,0 +1,12 @@
+.x-flexslider-shortcode-container {
+  margin-bottom: 0;
+}
+
+.x-slide p, .x-slide img {
+  margin-bottom: 0 !important;
+}
+
+footer {
+  background-color: rgb(245, 245, 245) !important;
+  color: black !important;
+}
