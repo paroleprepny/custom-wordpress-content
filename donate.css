@@ -20,14 +20,14 @@
   width: 100%;
 }
 
+.donate__btn .x-anchor-content {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 @media (max-width: 960px) {
   .donate__btn {
     width: 200px;
-  }
-
-  .donate__btn .x-anchor-content {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
   }
 }
 

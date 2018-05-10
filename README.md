@@ -1,3 +1,3 @@
 # custom-wordpress-content
 
-to bundle css run: `npm run bundle-css.js`
+to bundle css run: `npm run bundle-css`
