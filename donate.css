@@ -20,4 +20,27 @@
   width: 100%;
 }
 
-/* mobile only: at the point where things get fucked specifically for your donate btns */
+@media (max-width: 960px) {
+  .donate__btn {
+    width: 200px;
+  }
+
+  .donate__btn .x-anchor-content {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
+
+@media (max-width: 460px) {
+  .donate__btn {
+    margin-bottom: 15px;
+  }
+
+  .donate__btn-row {
+    margin-bottom: 0;
+  }
+
+  .donate__btn-stretch {
+    width: 200px;
+  }
+}
